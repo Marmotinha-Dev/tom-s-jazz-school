@@ -66,6 +66,14 @@
                     text-transform: uppercase;
                 }
                 
+                .button:hover {
+                    transform: translateY(-0.05em);
+                }
+                
+                .button:active {
+                    transform: translateY(0);
+                }
+                
                 .hero-section {
                     padding-right: 0;
                     padding-bottom: 16rem;
